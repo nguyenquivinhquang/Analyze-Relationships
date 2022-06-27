@@ -10,7 +10,8 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-writeFile = WriteFile("Output", "Export_relationship", isFirstTime=True)
+writeFile = WriteFile("Output", "Import_relationship", isFirstTime=True)
+df = pd.read_csv("datasetGenerate/climate_data-weather_cities_data-trade_data.csv")
 
 
 def qf(p, df1, df2, ncp=0):
@@ -71,7 +72,6 @@ def forward_selected(data, response):
     return model, formula, len(selected)
 
 
-df = pd.read_csv("datasetGenerate/datasettrade-weatherCities-weatherIndian_v2.csv")
 df = df.drop("Unnamed: 0", axis=1)
 
 total_commodity = len(list(set(df["Commodity"].tolist())))
@@ -79,16 +79,16 @@ total_commodity = len(list(set(df["Commodity"].tolist())))
 for (_count, commodity) in enumerate(list(set(df["Commodity"].tolist()))):
 
     df1 = df.loc[df["Commodity"] == commodity]
-    df1_im = df1.drop(["YEAR", "Commodity", "Import", "Difference"], axis=1)
-    Y = df1_im[["Export"]]
+    df1_im = df1.drop(["YEAR", "Commodity", "Export"], axis=1)
+    Y = df1_im[["Import"]]
     X = df1_im.iloc[:, 1:]
 
     # Choose the suitable feature and fit the model
-    model, formula, p = forward_selected(df1_im, "Export")
+    model, formula, p = forward_selected(df1_im, "Import")
     model.summary()
 
     anova = stat()
-    anova.anova_stat(df=df1_im, res_var="Export", anova_model=formula)
+    anova.anova_stat(df=df1_im, res_var="Import", anova_model=formula)
     anova.anova_summary
 
     n = X.shape[0]
