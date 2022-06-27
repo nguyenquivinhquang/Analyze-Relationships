@@ -1,0 +1,1057 @@
+Commodity: CEREALS.
+Y is related to all independent variables
+Export ~ Difference + winddirDegree + windspeedKmph + 1
+Param: 
+Intercept       -67983.355994
+Difference           0.799568
+winddirDegree      295.141230
+windspeedKmph     1098.221728
+dtype: float64
+----------------------------------
+
+Commodity: OPTICAL, PHOTOGRAPHIC CINEMATOGRAPHIC MEASURING, CHECKING PRECISION, MEDICAL OR SURGICAL INST. AND APPARATUS PARTS AND ACCESSORIES THEREOF;
+Y is related to all independent variables
+Export ~ FeelsLikeC + winddirDegree + windspeedKmph + 1
+Param: 
+Intercept       -28199.283242
+FeelsLikeC         838.492177
+winddirDegree       36.058656
+windspeedKmph      -57.883947
+dtype: float64
+----------------------------------
+
+Commodity: VEGETABLE PLAITING MATERIALS; VEGETABLE PRODUCTS NOT ELSEWHERE SPECIFIED OR INCLUDED.
+Y is related to all independent variables
+Export ~ meantemp + wind_speed + Difference + 1
+Param: 
+Intercept    -40.452400
+meantemp       8.794312
+wind_speed   -19.635002
+Difference     0.347422
+dtype: float64
+----------------------------------
+
+Commodity: ALUMINIUM AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ Difference + cloudcover + precipMM + 1
+Param: 
+Intercept     11226.057662
+Difference        0.992421
+cloudcover     -435.090606
+precipMM      38047.455442
+dtype: float64
+----------------------------------
+
+Commodity: CERAMIC PRODUCTS.
+Y is related to all independent variables
+Export ~ FeelsLikeC + moon_illumination + tempC + 1
+Param: 
+Intercept           -19102.027380
+FeelsLikeC             633.487003
+moon_illumination     -106.607743
+tempC                  250.695766
+dtype: float64
+----------------------------------
+
+Commodity: NUCLEAR REACTORS, BOILERS, MACHINERY AND MECHANICAL APPLIANCES; PARTS THEREOF.
+Y is related to all independent variables
+Export ~ wind_speed + maxtempC + meantemp + 1
+Param: 
+Intercept    -90346.984789
+wind_speed    -2082.062898
+maxtempC       3145.586046
+meantemp        692.440327
+dtype: float64
+----------------------------------
+
+Commodity: VEHICLES OTHER THAN RAILWAY OR TRAMWAY ROLLING STOCK, AND PARTS AND ACCESSORIES THEREOF.
+Y is related to all independent variables
+Export ~ Difference + visibility + maxtempC + 1
+Param: 
+Intercept    -30580.815513
+Difference        1.308431
+visibility     6740.717403
+maxtempC      -1041.497586
+dtype: float64
+----------------------------------
+
+Commodity: TOYS, GAMES AND SPORTS REQUISITES; PARTS AND ACCESSORIES THEREOF.
+Y is related to all independent variables
+Export ~ WindChillC + Difference + DewPointC + 1
+Param: 
+Intercept    -1317.205204
+WindChillC      65.096304
+Difference       0.213340
+DewPointC      -10.341895
+dtype: float64
+----------------------------------
+
+Commodity: LIVE ANIMALS.
+Y is related to all independent variables
+Export ~ Difference + pressure + moon_illumination + 1
+Param: 
+Intercept           -1883.989116
+Difference              0.962168
+pressure                1.913273
+moon_illumination      -0.760860
+dtype: float64
+----------------------------------
+
+Commodity: GLASS AND GLASSWARE.
+Y is related to all independent variables
+Export ~ humidity + maxtempC + wind_speed + 1
+Param: 
+Intercept     5614.724594
+humidity       -33.730702
+maxtempC      -100.940037
+wind_speed      -1.198303
+dtype: float64
+----------------------------------
+
+Commodity: MISCELLANEOUS CHEMICAL PRODUCTS.
+Y is related to all independent variables
+Export ~ wind_speed + moon_illumination + HeatIndexC + 1
+Param: 
+Intercept            3030.547126
+wind_speed            -96.276531
+moon_illumination    -127.916070
+HeatIndexC            229.431183
+dtype: float64
+----------------------------------
+
+Commodity: PHOTOGRAPHIC OR CINEMATOGRAPHIC GOODS.
+Y is related to all independent variables
+Export ~ precipMM + sunHour + windspeedKmph + 1
+Param: 
+Intercept         757.001679
+precipMM        -1074.902031
+sunHour           -56.277104
+windspeedKmph      -6.399861
+dtype: float64
+----------------------------------
+
+Commodity: SPECIAL WOVEN FABRICS; TUFTED TEXTILE FABRICS; LACE; TAPESTRIES; TRIMMINGS; EMBROIDERY.
+Y is related to all independent variables
+Export ~ Difference + humidity + cloudcover + 1
+Param: 
+Intercept     810.562035
+Difference      0.822970
+humidity      -14.427675
+cloudcover      6.250732
+dtype: float64
+----------------------------------
+
+Commodity: ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, NOT KNITTED OR CROCHETED.
+Y is related to all independent variables
+Export ~ Difference + WindChillC + windspeedKmph + 1
+Param: 
+Intercept       -4198.718687
+Difference          0.960361
+WindChillC        179.650587
+windspeedKmph      -9.710378
+dtype: float64
+----------------------------------
+
+Commodity: ARTICLES OF STONE, PLASTER, CEMENT, ASBESTOS, MICA OR SIMILAR MATERIALS.
+Y is related to all independent variables
+Export ~ DewPointC + sunHour + WindGustKmph + 1
+Param: 
+Intercept       6689.313299
+DewPointC       -182.429995
+sunHour         -246.359422
+WindGustKmph      -2.178238
+dtype: float64
+----------------------------------
+
+Commodity: ARTICLES OF APPAREL AND CLOTHING ACCESSORIES, KNITTED OR CORCHETED.
+Y is related to all independent variables
+Export ~ Difference + HeatIndexC + meantemp + 1
+Param: 
+Intercept    -3992.324831
+Difference       1.012245
+HeatIndexC     144.177808
+meantemp        -1.812437
+dtype: float64
+----------------------------------
+
+Commodity: LAC; GUMS, RESINS AND OTHER VEGETABLE SAPS AND EXTRACTS.
+Y is related to all independent variables
+Export ~ Difference + FeelsLikeC + meanpressure + 1
+Param: 
+Intercept      -2921.344503
+Difference         1.001604
+FeelsLikeC        72.928917
+meanpressure       1.001141
+dtype: float64
+----------------------------------
+
+Commodity: MUSICAL INSTRUMENTS; PARTS AND ACCESSORIES OF SUCH ARTICLES.
+Y is related to all independent variables
+Export ~ meantemp + DewPointC + moon_illumination + 1
+Param: 
+Intercept            38.419468
+meantemp             -0.207218
+DewPointC            -0.796265
+moon_illumination    -0.157482
+dtype: float64
+----------------------------------
+
+Commodity: CLOCKS AND WATCHES AND PARTS THEREOF.
+Y is related to all independent variables
+Export ~ WindGustKmph + DewPointC + windspeedKmph + 1
+Param: 
+Intercept        191.505556
+WindGustKmph      41.801841
+DewPointC        -27.088786
+windspeedKmph    -33.394169
+dtype: float64
+----------------------------------
+
+Commodity: COCOA AND COCOA PREPARATIONS.
+Y is related to all independent variables
+Export ~ mintempC + pressure + meanpressure + 1
+Param: 
+Intercept      -39611.651307
+mintempC           65.186469
+pressure           36.758764
+meanpressure        1.240966
+dtype: float64
+----------------------------------
+
+Commodity: NICKEL AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ precipMM + meantemp + sunHour + 1
+Param: 
+Intercept   -14612.470521
+precipMM    -28805.283548
+meantemp        33.508099
+sunHour       1435.057475
+dtype: float64
+----------------------------------
+
+Commodity: COFFEE, TEA, MATE AND SPICES.
+Y is related to all independent variables
+Export ~ FeelsLikeC + meanpressure + mintempC + 1
+Param: 
+Intercept      -23373.193706
+FeelsLikeC        592.624864
+meanpressure       12.690903
+mintempC         -164.677719
+dtype: float64
+----------------------------------
+
+Commodity: ALBUMINOIDAL SUBSTANCES; MODIFIED STARCHES; GLUES; ENZYMES.
+Y is related to all independent variables
+Export ~ Difference + cloudcover + meantemp + 1
+Param: 
+Intercept     539.038501
+Difference      0.674027
+cloudcover     -7.845873
+meantemp       -1.435022
+dtype: float64
+----------------------------------
+
+Commodity: IRON AND STEEL
+Y is not related to all independent variables
+----------------------------------
+
+Commodity: RAW HIDES AND SKINS (OTHER THAN FURSKINS) AND LEATHER
+Y is related to all independent variables
+Export ~ Difference + precipMM + visibility + 1
+Param: 
+Intercept      8585.627274
+Difference        0.559689
+precipMM     -14447.511489
+visibility     -719.938096
+dtype: float64
+----------------------------------
+
+Commodity: WADDING, FELT AND NONWOVENS; SPACIAL YARNS; TWINE, CORDAGE, ROPES AND CABLES AND ARTICLES THEREOF.
+Y is not related to all independent variables
+----------------------------------
+
+Commodity: ANIMAL OR VEGETABLE FATS AND OILS AND THEIR CLEAVAGE PRODUCTS; PRE. EDIBLE FATS; ANIMAL OR VEGETABLE WAXEX.
+Y is related to all independent variables
+Export ~ wind_speed + maxtempC + WindChillC + 1
+Param: 
+Intercept    -6173.941462
+wind_speed     -46.449056
+maxtempC       338.243271
+WindChillC    -122.765580
+dtype: float64
+----------------------------------
+
+Commodity: ELECTRICAL MACHINERY AND EQUIPMENT AND PARTS THEREOF; SOUND RECORDERS AND REPRODUCERS, TELEVISION IMAGE AND SOUND RECORDERS AND REPRODUCERS,AND PARTS.
+Y is related to all independent variables
+Export ~ pressure + sunHour + WindGustKmph + 1
+Param: 
+Intercept       2.013236e+06
+pressure       -2.057491e+03
+sunHour         5.867856e+03
+WindGustKmph    4.675855e+02
+dtype: float64
+----------------------------------
+
+Commodity: KNITTED OR CROCHETED FABRICS.
+Y is related to all independent variables
+Export ~ wind_speed + meanpressure + WindGustKmph + 1
+Param: 
+Intercept      -2914.636570
+wind_speed        -8.485971
+meanpressure       3.470384
+WindGustKmph     -18.004963
+dtype: float64
+----------------------------------
+
+Commodity: TOBACCO AND MANUFACTURED TOBACCO SUBSTITUTES.
+Y is related to all independent variables
+Export ~ Difference + pressure + tempC + 1
+Param: 
+Intercept    -14765.752190
+Difference        0.977597
+pressure         15.168407
+tempC           -17.832433
+dtype: float64
+----------------------------------
+
+Commodity: PRODUCTS OF THE MILLING INDUSTRY; MALT; STARCHES; INULIN; WHEAT GLUTEN.
+Y is related to all independent variables
+Export ~ meanpressure + humidity + meantemp + 1
+Param: 
+Intercept       7834.089045
+meanpressure      -7.302872
+humidity          -3.482878
+meantemp           0.285315
+dtype: float64
+----------------------------------
+
+Commodity: FURSKINS AND ARTIFICIAL FUR, MANUFACTURES THEREOF.
+Y is related to all independent variables
+Export ~ Difference + WindGustKmph + meantemp + 1
+Param: 
+Intercept       32.384900
+Difference       0.858677
+WindGustKmph    -1.694809
+meantemp        -0.075343
+dtype: float64
+----------------------------------
+
+Commodity: LIVE TREES AND OTHER PLANTS; BULBS; ROOTS AND THE LIKE; CUT FLOWERS AND ORNAMENTAL FOLIAGE.
+Y is related to all independent variables
+Export ~ meanpressure + mintempC + visibility + 1
+Param: 
+Intercept      -547.093207
+meanpressure      0.644335
+mintempC         -3.463384
+visibility        4.874171
+dtype: float64
+----------------------------------
+
+Commodity: RUBBER AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ WindGustKmph + moon_illumination + uvIndex + 1
+Param: 
+Intercept            12382.528874
+WindGustKmph          -704.373775
+moon_illumination      226.119605
+uvIndex              -1406.776073
+dtype: float64
+----------------------------------
+
+Commodity: EDIBLE FRUIT AND NUTS; PEEL OR CITRUS FRUIT OR MELONS.
+Y is related to all independent variables
+Export ~ wind_speed + meanpressure + meantemp + 1
+Param: 
+Intercept      -15159.637016
+wind_speed        112.934661
+meanpressure       17.321952
+meantemp          -58.266917
+dtype: float64
+----------------------------------
+
+Commodity: PREPARATIONS OF MEAT, OF FISH OR OF CRUSTACEANS, MOLLUSCS OR OTHER AQUATIC INVERTEBRATES
+Y is related to all independent variables
+Export ~ Difference + meantemp + FeelsLikeC + 1
+Param: 
+Intercept     70.534864
+Difference     1.003638
+meantemp      -0.093205
+FeelsLikeC    -2.281938
+dtype: float64
+----------------------------------
+
+Commodity: AIRCRAFT, SPACECRAFT, AND PARTS THEREOF.
+Y is related to all independent variables
+Export ~ Difference + meanpressure + visibility + 1
+Param: 
+Intercept      -342522.236290
+Difference           0.952475
+meanpressure       316.892740
+visibility        2840.137986
+dtype: float64
+----------------------------------
+
+Commodity: PHARMACEUTICAL PRODUCTS
+Y is related to all independent variables
+Export ~ Difference + FeelsLikeC + winddirDegree + 1
+Param: 
+Intercept       -11219.034281
+Difference           0.945787
+FeelsLikeC         412.346039
+winddirDegree        7.882426
+dtype: float64
+----------------------------------
+
+Commodity: PREPARATIONS OF VEGETABLES, FRUIT, NUTS OR OTHER PARTS OF PLANTS.
+Y is related to all independent variables
+Export ~ Difference + DewPointC + FeelsLikeC + 1
+Param: 
+Intercept    -375.438054
+Difference      1.765331
+DewPointC      62.924764
+FeelsLikeC    -26.433760
+dtype: float64
+----------------------------------
+
+Commodity: ARTICLES OF LEATHER,SADDLERY AND HARNESS;TRAVEL GOODS, HANDBAGS AND SIMILAR CONT.ARTICLES OF ANIMAL GUT(OTHR THN SILK-WRM)GUT.
+Y is related to all independent variables
+Export ~ DewPointC + Difference + sunHour + 1
+Param: 
+Intercept     3064.763162
+DewPointC     -186.160243
+Difference       0.447219
+sunHour         98.538290
+dtype: float64
+----------------------------------
+
+Commodity: ORES, SLAG AND ASH.
+Y is related to all independent variables
+Export ~ pressure + meanpressure + winddirDegree + 1
+Param: 
+Intercept        1.391737e+06
+pressure        -1.430945e+03
+meanpressure     6.390919e+01
+winddirDegree   -5.721954e+01
+dtype: float64
+----------------------------------
+
+Commodity: MAN-MADE FILAMENTS.
+Y is related to all independent variables
+Export ~ Difference + cloudcover + FeelsLikeC + 1
+Param: 
+Intercept    -963.931418
+Difference      1.157075
+cloudcover    -32.668081
+FeelsLikeC     77.144104
+dtype: float64
+----------------------------------
+
+Commodity: EXPLOSIVES; PYROTECHNIC PRODUCTS; MATCHES; PYROPHORIC ALLOYS; CERTAIN COMBUSTIBLE PREPARATIONS.
+Y is related to all independent variables
+Export ~ Difference + WindChillC + HeatIndexC + 1
+Param: 
+Intercept     186.510736
+Difference      0.932999
+WindChillC    -11.787993
+HeatIndexC      5.362683
+dtype: float64
+----------------------------------
+
+Commodity: COPPER AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ cloudcover + windspeedKmph + uvIndex1 + 1
+Param: 
+Intercept        49230.934147
+cloudcover        -390.938984
+windspeedKmph     -435.644269
+uvIndex1         -7643.721456
+dtype: float64
+----------------------------------
+
+Commodity: MISCELLANEOUS GOODS.
+Y is related to all independent variables
+Export ~ HeatIndexC + WindChillC + meanpressure + 1
+Param: 
+Intercept       16494.506718
+HeatIndexC      -1320.017639
+WindChillC        990.937493
+meanpressure       -5.236884
+dtype: float64
+----------------------------------
+
+Commodity: MAN-MADE STAPLE FIBRES.
+Y is related to all independent variables
+Export ~ moon_illumination + pressure + mintempC + 1
+Param: 
+Intercept           -121956.363839
+moon_illumination       -56.814816
+pressure                127.689316
+mintempC                -98.402454
+dtype: float64
+----------------------------------
+
+Commodity: ARTICLES OF IRON OR STEEL
+Y is related to all independent variables
+Export ~ Difference + visibility + humidity + 1
+Param: 
+Intercept    -50795.059022
+Difference        1.168735
+visibility     5322.727794
+humidity         42.615356
+dtype: float64
+----------------------------------
+
+Commodity: INORGANIC CHEMICALS; ORGANIC OR INORGANIC COMPOUNDS OF PRECIOUS METALS, OF RARE-EARTH METALS, OR RADI. ELEM. OR OF ISOTOPES.
+Y is related to all independent variables
+Export ~ WindGustKmph + wind_speed + visibility + 1
+Param: 
+Intercept       7553.748171
+WindGustKmph    -235.539065
+wind_speed       -38.521508
+visibility      -234.555674
+dtype: float64
+----------------------------------
+
+Commodity: ORGANIC CHEMICALS
+Y is related to all independent variables
+Export ~ meantemp + winddirDegree + Difference + 1
+Param: 
+Intercept       -4017.380673
+meantemp         -184.462157
+winddirDegree     103.971708
+Difference         -0.008572
+dtype: float64
+----------------------------------
+
+Commodity: PRODUCTS OF ANIMAL ORIGIN, NOT ELSEWHERE SPECIFIED OR INCLUDED.
+Y is related to all independent variables
+Export ~ Difference + FeelsLikeC + mintempC + 1
+Param: 
+Intercept    -361.493789
+Difference      1.098018
+FeelsLikeC     18.058912
+mintempC       -5.805950
+dtype: float64
+----------------------------------
+
+Commodity: MANUFACTURES OF STRAW, OF ESPARTO OR OF OTHER PLAITING MATERIALS; BASKETWARE AND WICKERWORK.
+Y is related to all independent variables
+Export ~ Difference + FeelsLikeC + WindChillC + 1
+Param: 
+Intercept     72.521162
+Difference     1.108150
+FeelsLikeC    -3.682449
+WindChillC     1.289026
+dtype: float64
+----------------------------------
+
+Commodity: PULP OF WOOD OR OF OTHER FIBROUS CELLULOSIC MATERIAL; WASTE AND SCRAP OF PAPER OR PAPERBOARD.
+Y is related to all independent variables
+Export ~ pressure + tempC + humidity + 1
+Param: 
+Intercept   -13510.658848
+pressure        13.665110
+tempC          -10.625383
+humidity         0.211913
+dtype: float64
+----------------------------------
+
+Commodity: PRINTED BOOKDS, NEWSPAPERS, PICTURES AND OTHER PRODUCTS OF THE PRINTING INDUSTRY; MANUSCRIPTS, TYPESCRIPTS AND PLANS.
+Y is related to all independent variables
+Export ~ maxtempC + wind_speed + visibility + 1
+Param: 
+Intercept     3212.795720
+maxtempC       -67.030399
+wind_speed      -2.037573
+visibility     -79.554136
+dtype: float64
+----------------------------------
+
+Commodity: MEAT AND EDIBLE MEAT OFFAL.
+Y is related to all independent variables
+Export ~ Difference + maxtempC + WindGustKmph + 1
+Param: 
+Intercept      -50.974086
+Difference       0.999503
+maxtempC         2.241567
+WindGustKmph    -1.008069
+dtype: float64
+----------------------------------
+
+Commodity: ZINC AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ wind_speed + maxtempC + sunHour + 1
+Param: 
+Intercept    -8325.703480
+wind_speed     -47.217988
+maxtempC       450.632615
+sunHour       -473.440556
+dtype: float64
+----------------------------------
+
+Commodity: TANNING OR DYEING EXTRACTS; TANNINS AND THEIR DERI. DYES, PIGMENTS AND OTHER COLOURING MATTER; PAINTS AND VER; PUTTY AND OTHER MASTICS; INKS.
+Y is related to all independent variables
+Export ~ cloudcover + WindGustKmph + visibility + 1
+Param: 
+Intercept       4375.047342
+cloudcover       -65.912226
+WindGustKmph    -229.457955
+visibility       335.275115
+dtype: float64
+----------------------------------
+
+Commodity: SILK
+Y is related to all independent variables
+Export ~ FeelsLikeC + sunHour + wind_speed + 1
+Param: 
+Intercept     1601.938313
+FeelsLikeC     -89.119762
+sunHour         99.468366
+wind_speed      -0.438522
+dtype: float64
+----------------------------------
+
+Commodity: WOOD AND ARTICLES OF WOOD; WOOD CHARCOAL.
+Y is related to all independent variables
+Export ~ mintempC + visibility + precipMM + 1
+Param: 
+Intercept     1401.560957
+mintempC       205.323088
+visibility    -558.031290
+precipMM     -1085.565223
+dtype: float64
+----------------------------------
+
+Commodity: PREPARED FEATHERS AND DOWN AND ARTICLES MADE OF FEATHERS OR OF DOWN; ARTIFICIAL FLOWERS; ARTICLES OF HUMAN HAIR.
+Y is related to all independent variables
+Export ~ Difference + wind_speed + maxtempC + 1
+Param: 
+Intercept     5.932212
+Difference    1.006897
+wind_speed   -0.883354
+maxtempC      0.303084
+dtype: float64
+----------------------------------
+
+Commodity: SHIPS, BOATS AND FLOATING STRUCTURES.
+Y is related to all independent variables
+Export ~ Difference + mintempC + precipMM + 1
+Param: 
+Intercept     49012.822399
+Difference        0.736820
+mintempC      -2090.672859
+precipMM      32032.942736
+dtype: float64
+----------------------------------
+
+Commodity: RAILWAY OR TRAMWAY LOCOMOTIVES, ROLLING-STOCK AND PARTS THEREOF; RAILWAY OR TRAMWAY TRACK FIXTURES AND FITTINGS AND PARTS THEREOF; MECHANICAL
+Y is related to all independent variables
+Export ~ wind_speed + Difference + meanpressure + 1
+Param: 
+Intercept      -5654.090346
+wind_speed       -16.277341
+Difference         0.276333
+meanpressure       5.923676
+dtype: float64
+----------------------------------
+
+Commodity: MISCELLANEOUS EDIBLE PREPARATIONS.
+Y is related to all independent variables
+Export ~ Difference + moon_illumination + uvIndex1 + 1
+Param: 
+Intercept           -192.840028
+Difference             1.676763
+moon_illumination     11.950466
+uvIndex1            -121.319003
+dtype: float64
+----------------------------------
+
+Commodity: TOOLS IMPLEMENTS, CUTLERY, SPOONS AND FORKS, OF BASE METAL; PARTS THEREOF OF BASE METAL.
+Y is not related to all independent variables
+----------------------------------
+
+Commodity: MISCELLANEOUS MANUFACTURED ARTICLES.
+Y is related to all independent variables
+Export ~ WindChillC + meantemp + meanpressure + 1
+Param: 
+Intercept      -3196.106131
+WindChillC       110.689854
+meantemp           2.464396
+meanpressure       0.601649
+dtype: float64
+----------------------------------
+
+Commodity: OTHER VEGETABLE TEXTILE FIBRES; PAPER YARN AND WOVEN FABRICS OF PAPER YARN.
+Y is related to all independent variables
+Export ~ HeatIndexC + WindGustKmph + WindChillC + 1
+Param: 
+Intercept      -2550.489793
+HeatIndexC        85.657909
+WindGustKmph     -16.436791
+WindChillC        25.412310
+dtype: float64
+----------------------------------
+
+Commodity: DAIRY PRODUCE; BIRDS' EGGS; NATURAL HONEY; EDIBLE PROD. OF ANIMAL ORIGIN, NOT ELSEWHERE SPEC. OR INCLUDED.
+Y is related to all independent variables
+Export ~ Difference + meanpressure + wind_speed + 1
+Param: 
+Intercept       1524.480895
+Difference         0.959617
+meanpressure      -1.441776
+wind_speed        -1.083318
+dtype: float64
+----------------------------------
+
+Commodity: CARPETS AND OTHER TEXTILE FLOOR COVERINGS.
+Y is related to all independent variables
+Export ~ Difference + uvIndex + moon_illumination + 1
+Param: 
+Intercept           -1058.128379
+Difference              0.958503
+uvIndex               190.277896
+moon_illumination      -0.804699
+dtype: float64
+----------------------------------
+
+Commodity: LEAD AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ wind_speed + meanpressure + uvIndex + 1
+Param: 
+Intercept      -4393.307106
+wind_speed       -29.191823
+meanpressure       6.292340
+uvIndex         -239.948152
+dtype: float64
+----------------------------------
+
+Commodity: OIL SEEDS AND OLEA. FRUITS; MISC. GRAINS, SEEDS AND FRUIT; INDUSTRIAL OR MEDICINAL PLANTS; STRAW AND FODDER.
+Y is related to all independent variables
+Export ~ Difference + moon_illumination + precipMM + 1
+Param: 
+Intercept            1434.305054
+Difference              0.950673
+moon_illumination     -23.496212
+precipMM             1326.163144
+dtype: float64
+----------------------------------
+
+Commodity: PREPARATIONS OF CEREALS, FLOUR, STARCH OR MILK; PASTRYCOOKS PRODUCTS.
+Y is related to all independent variables
+Export ~ FeelsLikeC + HeatIndexC + winddirDegree + 1
+Param: 
+Intercept       -770.336463
+FeelsLikeC       675.468170
+HeatIndexC      -632.748788
+winddirDegree      0.689631
+dtype: float64
+----------------------------------
+
+Commodity: FERTILISERS.
+Y is related to all independent variables
+Export ~ sunHour + moon_illumination + FeelsLikeC + 1
+Param: 
+Intercept           -1720.213556
+sunHour               112.195332
+moon_illumination      10.818158
+FeelsLikeC              2.952313
+dtype: float64
+----------------------------------
+
+Commodity: MINERAL FUELS, MINERAL OILS AND PRODUCTS OF THEIR DISTILLATION; BITUMINOUS SUBSTANCES; MINERAL WAXES.
+Y is related to all independent variables
+Export ~ Difference + HeatIndexC + DewPointC + 1
+Param: 
+Intercept     830284.382887
+Difference        -0.378696
+HeatIndexC    -21290.249493
+DewPointC     -14288.892120
+dtype: float64
+----------------------------------
+
+Commodity: CORK AND ARTICLES OF CORK.
+Y is related to all independent variables
+Export ~ wind_speed + sunHour + winddirDegree + 1
+Param: 
+Intercept        18.294455
+wind_speed       -0.130354
+sunHour          -2.049027
+winddirDegree     0.036057
+dtype: float64
+----------------------------------
+
+Commodity: FURNITURE; BEDDING, MATTRESSES, MATTRESS SUPPORTS, CUSHIONS AND SIMILAR STUFFED FURNISHING; LAMPS AND LIGHTING FITTINGS NOT ELSEWHERE SPECIFIED OR INC
+Y is related to all independent variables
+Export ~ HeatIndexC + pressure + uvIndex1 + 1
+Param: 
+Intercept     37699.916646
+HeatIndexC      419.745563
+pressure        -49.906049
+uvIndex1        396.716189
+dtype: float64
+----------------------------------
+
+Commodity: COTTON.
+Y is related to all independent variables
+Export ~ Difference + pressure + wind_speed + 1
+Param: 
+Intercept     492830.447435
+Difference         0.795275
+pressure        -486.156242
+wind_speed       -15.325174
+dtype: float64
+----------------------------------
+
+Commodity: EDIBLE VEGETABLES AND CERTAIN ROOTS AND TUBERS.
+Y is related to all independent variables
+Export ~ pressure + precipMM + moon_illumination + 1
+Param: 
+Intercept            121110.215186
+pressure               -121.054498
+precipMM               4627.786827
+moon_illumination        44.924474
+dtype: float64
+----------------------------------
+
+Commodity: HEADGEAR AND PARTS THEREOF.
+Y is related to all independent variables
+Export ~ windspeedKmph + meanpressure + precipMM + 1
+Param: 
+Intercept        377.713640
+windspeedKmph     -6.641716
+meanpressure      -0.259313
+precipMM         -50.207629
+dtype: float64
+----------------------------------
+
+Commodity: WORKS OF ART COLLECTORS' PIECES AND ANTIQUES.
+Y is related to all independent variables
+Export ~ humidity + maxtempC + sunHour + 1
+Param: 
+Intercept   -8669.036016
+humidity       76.617326
+maxtempC      235.921355
+sunHour      -228.926023
+dtype: float64
+----------------------------------
+
+Commodity: MISCELLANEOUS ARTICLES OF BASE METAL.
+Y is related to all independent variables
+Export ~ maxtempC + cloudcover + pressure + 1
+Param: 
+Intercept     766.835008
+maxtempC      169.936996
+cloudcover     -5.305220
+pressure       -5.499922
+dtype: float64
+----------------------------------
+
+Commodity: SOAP, ORGANIC SURFACE-ACTIVE AGENTS, WASHING PREPARATIONS, LUBRICATING PREPARATIONS, ARTIFICIAL WAXES, PREPARED WAXES, POLISHING OR SCOURING PREP.
+Y is related to all independent variables
+Export ~ meantemp + winddirDegree + pressure + 1
+Param: 
+Intercept       -3577.056518
+meantemp           -4.302098
+winddirDegree       8.136387
+pressure            2.575244
+dtype: float64
+----------------------------------
+
+Commodity: ESSENTIAL OILS AND RESINOIDS; PERFUMERY, COSMETIC OR TOILET PREPARATIONS.
+Y is related to all independent variables
+Export ~ Difference + uvIndex + meanpressure + 1
+Param: 
+Intercept      -7013.343465
+Difference         1.828616
+uvIndex          835.725164
+meanpressure       1.435351
+dtype: float64
+----------------------------------
+
+Commodity: SUGARS AND SUGAR CONFECTIONERY.
+Y is related to all independent variables
+Export ~ WindGustKmph + meanpressure + cloudcover + 1
+Param: 
+Intercept      -27129.870494
+WindGustKmph      651.650497
+meanpressure       17.707093
+cloudcover         22.388023
+dtype: float64
+----------------------------------
+
+Commodity: FISH AND CRUSTACEANS, MOLLUSCS AND OTHER AQUATIC INVERTABRATES.
+Y is related to all independent variables
+Export ~ Difference + uvIndex + humidity + 1
+Param: 
+Intercept    -1279.598149
+Difference       0.997880
+uvIndex        197.771867
+humidity         0.994846
+dtype: float64
+----------------------------------
+
+Commodity: BEVERAGES, SPIRITS AND VINEGAR.
+Y is related to all independent variables
+Export ~ Difference + WindGustKmph + wind_speed + 1
+Param: 
+Intercept       1013.858315
+Difference         0.286418
+WindGustKmph     -37.589174
+wind_speed        -2.665794
+dtype: float64
+----------------------------------
+
+Commodity: ARMS AND AMMUNITION; PARTS AND ACCESSORIES THEREOF.
+Y is related to all independent variables
+Export ~ Difference + pressure + moon_illumination + 1
+Param: 
+Intercept            19273.253740
+Difference               1.101919
+pressure               -19.350635
+moon_illumination        5.939568
+dtype: float64
+----------------------------------
+
+Commodity: IMPREGNATED, COATED, COVERED OR LAMINATED TEXTILE FABRICS; TEXTILE ARTICLES OF A KIND SUITABLE FOR INDUSTRIAL USE.
+Y is related to all independent variables
+Export ~ precipMM + moon_illumination + meantemp + 1
+Param: 
+Intercept            2787.167731
+precipMM            -7516.070718
+moon_illumination     -46.335105
+meantemp               -1.033877
+dtype: float64
+----------------------------------
+
+Commodity: UMBRELLAS, SUN UMBRELLAS, WALKING-STICKS, SEAT-STICKS, WHIPS,RIDING-CROPS AND PARTS THEREOF.
+Y is related to all independent variables
+Export ~ winddirDegree + meanpressure + meantemp + 1
+Param: 
+Intercept        577.357864
+winddirDegree     -4.485551
+meanpressure       0.305216
+meantemp           0.107319
+dtype: float64
+----------------------------------
+
+Commodity: NATURAL OR CULTURED PEARLS,PRECIOUS OR SEMIPRECIOUS STONES,PRE.METALS,CLAD WITH PRE.METAL AND ARTCLS THEREOF;IMIT.JEWLRY;COIN.
+Y is related to all independent variables
+Export ~ meanpressure + moon_illumination + pressure + 1
+Param: 
+Intercept           -753614.416081
+meanpressure            244.060254
+moon_illumination      -967.689618
+pressure                587.004023
+dtype: float64
+----------------------------------
+
+Commodity: OTHER BASE METALS; CERMETS; ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ pressure + precipMM + mintempC + 1
+Param: 
+Intercept    29080.949338
+pressure       -29.002746
+precipMM     -1287.782489
+mintempC        13.638162
+dtype: float64
+----------------------------------
+
+Commodity: PLASTIC AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ meantemp + visibility + cloudcover + 1
+Param: 
+Intercept     33827.947562
+meantemp       -102.569200
+visibility    -2867.868134
+cloudcover       89.973378
+dtype: float64
+----------------------------------
+
+Commodity: WOOL, FINE OR COARSE ANIMAL HAIR, HORSEHAIR YARN AND WOVEN FABRIC.
+Y is related to all independent variables
+Export ~ pressure + Difference + mintempC + 1
+Param: 
+Intercept    -20426.508888
+pressure         20.313533
+Difference       -0.223800
+mintempC          2.594494
+dtype: float64
+----------------------------------
+
+Commodity: PAPER AND PAPERBOARD; ARTICLES OF PAPER PULP, OF PAPER OR OF PAPERBOARD.
+Y is related to all independent variables
+Export ~ wind_speed + WindChillC + moon_illumination + 1
+Param: 
+Intercept           -3554.468799
+wind_speed            -28.376594
+WindChillC            227.632516
+moon_illumination     -30.597633
+dtype: float64
+----------------------------------
+
+Commodity: SALT; SULPHUR; EARTHS AND STONE; PLASTERING MATERIALS, LIME AND CEMENT.
+Y is related to all independent variables
+Export ~ meantemp + winddirDegree + precipMM + 1
+Param: 
+Intercept       -1799.694981
+meantemp          -17.660803
+winddirDegree      21.458242
+precipMM         -836.342563
+dtype: float64
+----------------------------------
+
+Commodity: FOOTWEAR, GAITERS AND THE LIKE; PARTS OF SUCH ARTICLES.
+Y is related to all independent variables
+Export ~ DewPointC + cloudcover + WindChillC + 1
+Param: 
+Intercept     14916.889637
+DewPointC     -1430.986122
+cloudcover      196.152880
+WindChillC      145.382831
+dtype: float64
+----------------------------------
+
+Commodity: TIN AND ARTICLES THEREOF.
+Y is related to all independent variables
+Export ~ meanpressure + maxtempC + cloudcover + 1
+Param: 
+Intercept       6602.277161
+meanpressure      -2.231562
+maxtempC        -129.196739
+cloudcover        -8.172473
+dtype: float64
+----------------------------------
+
+Commodity: RESIDUES AND WASTE FROM THE FOOD INDUSTRIES; PREPARED ANIMAL FODER.
+Y is related to all independent variables
+Export ~ Difference + FeelsLikeC + meanpressure + 1
+Param: 
+Intercept      -14688.763759
+Difference          1.014381
+FeelsLikeC        213.066677
+meanpressure        8.813529
+dtype: float64
+----------------------------------
+
+Commodity: PROJECT GOODS; SOME SPECIAL USES.
+Y is related to all independent variables
+Export ~ WindChillC + visibility + pressure + 1
+Param: 
+Intercept     3559.259181
+WindChillC     -80.792203
+visibility     117.416177
+pressure        -2.393237
+dtype: float64
+----------------------------------
+
+Commodity: OTHER MADE UP TEXTILE ARTICLES; SETS; WORN CLOTHING AND WORN TEXTILE ARTICLES; RAGS
+Y is related to all independent variables
+Export ~ Difference + uvIndex + wind_speed + 1
+Param: 
+Intercept    -8037.491145
+Difference       0.692962
+uvIndex       1481.039419
+wind_speed       7.345976
+dtype: float64
+----------------------------------
+
