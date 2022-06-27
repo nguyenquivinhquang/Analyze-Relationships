@@ -1,4 +1,11 @@
 # Analyze-Relationships
+The purpose of this respo is to analyze the relationship among three pieces of information in below datasets:
+
+- https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
+- https://www.kaggle.com/datasets/mahendran1/weather-data-in-india-from-1901-to-2017
+- https://www.kaggle.com/datasets/hiteshsoneji/historical-weather-data-for-indian-cities
+- https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data
+- https://www.kaggle.com/datasets/lakshyaag/india-trade-data
 
 ## Prepare
 
