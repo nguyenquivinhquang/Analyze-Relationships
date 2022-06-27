@@ -101,7 +101,7 @@ The final dataframe is the combination of  Trade data and temp dataframe.
 My approach to this problem is to find all attributes' relationships with the trade data. It means how other attributes have any affinity for the Commodity.
 
 For example, 
-$$\text{The import AIRCRAFT, SPACECRAFT, AND PARTS THEREOF} = 1858.6676 * \text{Temperature\_Mean} + 1366.8223 * \text{visibility} + (-4.41e+04) * \text{HeatIndexC} + (4.221e+04)* \text{FeelsLikeC} + -0.0506 * \text{ Difference}+ -256.3637 * \text{mintempC} + 1 * (1.212e+04)$$
+$\text{The import AIRCRAFT, SPACECRAFT, AND PARTS THEREOF} = 1858.6676 * \text{Temperature\_Mean} + 1366.8223 * \text{visibility} + (-4.41e+04) * \text{HeatIndexC} + (4.221e+04)* \text{FeelsLikeC} + -0.0506 * \text{ Difference}+ -256.3637 * \text{mintempC} + 1 * (1.212e+04)$
 
 
 The problem is to analyze the relationship between three pieces of information. The first is Trade_data. Therefore two remainings are the combination of two of the other dataset. With three datasets, I will choose Trade_data to work like $Y$ and another work like $X$. It means that I predict $Y$ based on $X$ by using regression.
